@@ -1,0 +1,53 @@
+TASK 2
+###################
+
+Question 1:
+###########
+Answer:
+I would run some Black Box testing for this scenario
+
+1. Boundary Value Analysis
+Test1: Input condition is XX = 18 = Boundary values 17, 18, 19
+Test2: Input condition is XX = 100 = Boundary values 99, 100, 101
+
+2. Equivalence Partitioning
+Accepted values are between 18 and 100
+Test1: Valid partition: 18 – 100 = Pick any one input test data from 18 – 100
+Test2: Invalid partition: <=17 = Pick any one input test data less than or equal to 17
+Test3: Invalid partition: >=100 = Pick any one input test data greater than or equal to 100
+
+3. Error Guessing
+If the tester has an experience and availability of some previous data about this failure,
+error guessing method would be run.
+
+
+Question 2:
+###########
+Answer:
+1. Check status before starting to parse. If the status is not equal to 200, I would not try to parse the response.
+2. Retry the exact same request to get a different response for a specific timeout.
+3. I would recommend to log all request, stack trace and app data to see where the code stop working.
+4. I would expect to use a log monitoring service to save the errors to a database for saving time while scanning logs and for sending filtered alerts(Email, push notification, etc). 
+If we have sufficient data about logs, we can also predict the future error responses before the occurence by using a Machine Learning model.
+
+
+Question 3:
+###########
+Answer:
+a- We dont trust the "Account-Guard-Service" will be working properly at all the time as a black box.
+What if any changes occured in "Account-Guard-Service" and we don't know it is? We should test the real 
+"Account-Guard-Service" as well.
+
+b- If I had to make a test as automated, I would consider three things;
+Test should be repetitive, test needs big amount of data and test is highly critical.
+In this scenario I would recommend to use RBT to determine the risk factor in order to have a priority.
+Is this feature is critical? How often this feature is used? How visible the problem is for the user?
+If the risk factor is low enough to be automated, I would not neither.
+
+c- The most appropriate approach to the automation.
+
+d- In this case, you are willing to take the responsiblity of a failure at any time except between 1:00AM and 3:00AM 
+beucase of using only mock of Account-Guard-Service for all the day hours remain.
+
+
+

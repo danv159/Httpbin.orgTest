@@ -1,0 +1,31 @@
+2020-01-20 22:11:00,068 [main] INFO  (LogUtil.java:29) - PUT with body Test finished: Passed
+2020-01-20 22:11:00,081 [main] INFO  (LogUtil.java:29) - PATCHTest is started
+2020-01-20 22:11:00,867 [main] INFO  (LogUtil.java:29) - PATCH Test finished: Passed
+2020-01-20 22:11:00,875 [main] INFO  (LogUtil.java:29) - DELETETest is started
+2020-01-20 22:11:01,712 [main] INFO  (LogUtil.java:29) - DELETE Test finished: Passed
+2020-01-20 22:11:01,721 [main] INFO  (LogUtil.java:29) - GETContentTypeTest is started
+2020-01-20 22:11:02,566 [main] INFO  (LogUtil.java:29) - GETResponseTimeTest is started
+2020-01-20 22:11:03,416 [main] INFO  (LogUtil.java:29) - GET Response Time Test: Passed
+2020-01-20 22:11:03,424 [main] INFO  (LogUtil.java:29) - POSTWithSerializationByJSONTest is started
+2020-01-20 22:11:04,317 [main] INFO  (LogUtil.java:29) - POST with Serialization by JSON Test: Passed
+2020-01-20 22:11:04,327 [main] INFO  (LogUtil.java:29) - GETIPTest is started
+2020-01-20 22:11:05,550 [main] INFO  (LogUtil.java:29) - Public IP address provided
+2020-01-20 22:11:05,551 [main] INFO  (LogUtil.java:29) - GET IP Test: Passed
+2020-01-20 22:11:31,854 [main] INFO  (LogUtil.java:29) - PostWithBodyTest is started
+2020-01-20 22:11:34,249 [main] INFO  (LogUtil.java:29) - POST with body Test finished: Passed
+2020-01-20 22:11:34,268 [main] INFO  (LogUtil.java:29) - SimpleGETTest is started
+2020-01-20 22:11:35,111 [main] INFO  (LogUtil.java:29) - Simple GET Test finished: Passed
+2020-01-20 22:11:35,119 [main] INFO  (LogUtil.java:29) - PUTWithBodyTest is started
+2020-01-20 22:11:35,917 [main] INFO  (LogUtil.java:29) - PUT with body Test finished: Passed
+2020-01-20 22:11:35,925 [main] INFO  (LogUtil.java:29) - PATCHTest is started
+2020-01-20 22:11:36,766 [main] INFO  (LogUtil.java:29) - PATCH Test finished: Passed
+2020-01-20 22:11:36,774 [main] INFO  (LogUtil.java:29) - DELETETest is started
+2020-01-20 22:11:37,551 [main] INFO  (LogUtil.java:29) - DELETE Test finished: Passed
+2020-01-20 22:11:37,560 [main] INFO  (LogUtil.java:29) - GETContentTypeTest is started
+2020-01-20 22:11:38,448 [main] INFO  (LogUtil.java:29) - GETResponseTimeTest is started
+2020-01-20 22:11:39,303 [main] INFO  (LogUtil.java:29) - GET Response Time Test: Passed
+2020-01-20 22:11:39,310 [main] INFO  (LogUtil.java:29) - POSTWithSerializationByJSONTest is started
+2020-01-20 22:11:40,212 [main] INFO  (LogUtil.java:29) - POST with Serialization by JSON Test: Passed
+2020-01-20 22:11:40,221 [main] INFO  (LogUtil.java:29) - GETIPTest is started
+2020-01-20 22:11:41,519 [main] INFO  (LogUtil.java:29) - Public IP address provided
+2020-01-20 22:11:41,519 [main] INFO  (LogUtil.java:29) - GET IP Test: Passed

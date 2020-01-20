@@ -1,0 +1,5 @@
+2020-01-20 22:10:55,788 [main] INFO  (LogUtil.java:29) - PostWithBodyTest is started
+2020-01-20 22:10:58,294 [main] INFO  (LogUtil.java:29) - POST with body Test finished: Passed
+2020-01-20 22:10:58,310 [main] INFO  (LogUtil.java:29) - SimpleGETTest is started
+2020-01-20 22:10:59,165 [main] INFO  (LogUtil.java:29) - Simple GET Test finished: Passed
+2020-01-20 22:10:59,175 [main] INFO  (LogUtil.java:29) - PUTWithBodyTest is started

@@ -1,0 +1,4 @@
+HttpbinRestTest.class
+config\HttpbinApiConfig.class
+config\Endpoints.class
+utility\LogUtil.class

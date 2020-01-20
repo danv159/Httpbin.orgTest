@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HttpbinRestTest" duration-ms="9949" started-at="2020-01-20T19:18:43Z" finished-at="2020-01-20T19:18:53Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="9949" started-at="2020-01-20T19:18:43Z" finished-at="2020-01-20T19:18:53Z">
+      <class name="HttpbinRestTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:HttpbinRestTest@327b636c]" name="setup" is-config="true" duration-ms="496" started-at="2020-01-20T19:18:43Z" finished-at="2020-01-20T19:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getCurrentMethodName(org.testng.ITestResult)[pri:0, instance:HttpbinRestTest@327b636c]" name="getCurrentMethodName" is-config="true" duration-ms="12" started-at="2020-01-20T19:18:44Z" description="Get and print method name" finished-at="2020-01-20T19:18:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PostWithBodyTest status=SUCCESS method=HttpbinRestTest.PostWithBodyTest()[pri:0, instance:HttpbinRestTest@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrentMethodName -->
+        <test-method status="PASS" signature="PostWithBodyTest()[pri:0, instance:HttpbinRestTest@327b636c]" name="PostWithBodyTest" duration-ms="2187" started-at="2020-01-20T19:18:44Z" description="POST with body Test" finished-at="2020-01-20T19:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostWithBodyTest -->
+        <test-method status="PASS" signature="getCurrentMethodName(org.testng.ITestResult)[pri:0, instance:HttpbinRestTest@327b636c]" name="getCurrentMethodName" is-config="true" duration-ms="0" started-at="2020-01-20T19:18:46Z" description="Get and print method name" finished-at="2020-01-20T19:18:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SimpleGETTest status=SUCCESS method=HttpbinRestTest.SimpleGETTest()[pri:1, instance:HttpbinRestTest@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrentMethodName -->
+        <test-method status="PASS" signature="SimpleGETTest()[pri:1, instance:HttpbinRestTest@327b636c]" name="SimpleGETTest" duration-ms="836" started-at="2020-01-20T19:18:46Z" description="Simple GET Test" finished-at="2020-01-20T19:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SimpleGETTest -->
+        <test-method status="PASS" signature="getCurrentMethodName(org.testng.ITestResult)[pri:0, instance:HttpbinRestTest@327b636c]" name="getCurrentMethodName" is-config="true" duration-ms="1" started-at="2020-01-20T19:18:47Z" description="Get and print method name" finished-at="2020-01-20T19:18:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PUTWithBodyTest status=SUCCESS method=HttpbinRestTest.PUTWithBodyTest()[pri:2, instance:HttpbinRestTest@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrentMethodName -->
+        <test-method status="PASS" signature="PUTWithBodyTest()[pri:2, instance:HttpbinRestTest@327b636c]" name="PUTWithBodyTest" duration-ms="821" started-at="2020-01-20T19:18:47Z" description="PUT with body Test" finished-at="2020-01-20T19:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PUTWithBodyTest -->
+        <test-method status="PASS" signature="getCurrentMethodName(org.testng.ITestResult)[pri:0, instance:HttpbinRestTest@327b636c]" name="getCurrentMethodName" is-config="true" duration-ms="1" started-at="2020-01-20T19:18:48Z" description="Get and print method name" finished-at="2020-01-20T19:18:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PATCHTest status=SUCCESS method=HttpbinRestTest.PATCHTest()[pri:3, instance:HttpbinRestTest@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrentMethodName -->
+        <test-method status="PASS" signature="PATCHTest()[pri:3, instance:HttpbinRestTest@327b636c]" name="PATCHTest" duration-ms="810" started-at="2020-01-20T19:18:48Z" description="PATCH Test" finished-at="2020-01-20T19:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PATCHTest -->
+        <test-method status="PASS" signature="getCurrentMethodName(org.testng.ITestResult)[pri:0, instance:HttpbinRestTest@327b636c]" name="getCurrentMethodName" is-config="true" duration-ms="4" started-at="2020-01-20T19:18:48Z" description="Get and print method name" finished-at="2020-01-20T19:18:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DELETETest status=SUCCESS method=HttpbinRestTest.DELETETest()[pri:4, instance:HttpbinRestTest@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrentMethodName -->
+        <test-method status="PASS" signature="DELETETest()[pri:4, instance:HttpbinRestTest@327b636c]" name="DELETETest" duration-ms="790" started-at="2020-01-20T19:18:48Z" description="DELETE Test" finished-at="2020-01-20T19:18:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DELETETest -->
+        <test-method status="PASS" signature="getCurrentMethodName(org.testng.ITestResult)[pri:0, instance:HttpbinRestTest@327b636c]" name="getCurrentMethodName" is-config="true" duration-ms="1" started-at="2020-01-20T19:18:49Z" description="Get and print method name" finished-at="2020-01-20T19:18:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GETContentTypeTest status=FAILURE method=HttpbinRestTest.GETContentTypeTest()[pri:5, instance:HttpbinRestTest@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrentMethodName -->
+        <test-method status="FAIL" signature="GETContentTypeTest()[pri:5, instance:HttpbinRestTest@327b636c]" name="GETContentTypeTest" duration-ms="798" started-at="2020-01-20T19:18:49Z" description="GET Content Type Test" finished-at="2020-01-20T19:18:50Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[GET Content Type Test Failed expected [application/json] but found [application/json]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: GET Content Type Test Failed expected [application/json] but found [application/json]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at HttpbinRestTest.GETContentTypeTest(HttpbinRestTest.java:156)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GETContentTypeTest -->
+        <test-method status="PASS" signature="getCurrentMethodName(org.testng.ITestResult)[pri:0, instance:HttpbinRestTest@327b636c]" name="getCurrentMethodName" is-config="true" duration-ms="1" started-at="2020-01-20T19:18:50Z" description="Get and print method name" finished-at="2020-01-20T19:18:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GETResponseTimeTest status=SUCCESS method=HttpbinRestTest.GETResponseTimeTest()[pri:6, instance:HttpbinRestTest@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrentMethodName -->
+        <test-method status="PASS" signature="GETResponseTimeTest()[pri:6, instance:HttpbinRestTest@327b636c]" name="GETResponseTimeTest" duration-ms="803" started-at="2020-01-20T19:18:50Z" description="GET Response Time Test" finished-at="2020-01-20T19:18:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GETResponseTimeTest -->
+        <test-method status="PASS" signature="getCurrentMethodName(org.testng.ITestResult)[pri:0, instance:HttpbinRestTest@327b636c]" name="getCurrentMethodName" is-config="true" duration-ms="1" started-at="2020-01-20T19:18:51Z" description="Get and print method name" finished-at="2020-01-20T19:18:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=POSTWithSerializationByJSONTest status=SUCCESS method=HttpbinRestTest.POSTWithSerializationByJSONTest()[pri:7, instance:HttpbinRestTest@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrentMethodName -->
+        <test-method status="PASS" signature="POSTWithSerializationByJSONTest()[pri:7, instance:HttpbinRestTest@327b636c]" name="POSTWithSerializationByJSONTest" duration-ms="869" started-at="2020-01-20T19:18:51Z" description="POST with Serialization by JSON Test" finished-at="2020-01-20T19:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POSTWithSerializationByJSONTest -->
+        <test-method status="PASS" signature="getCurrentMethodName(org.testng.ITestResult)[pri:0, instance:HttpbinRestTest@327b636c]" name="getCurrentMethodName" is-config="true" duration-ms="1" started-at="2020-01-20T19:18:52Z" description="Get and print method name" finished-at="2020-01-20T19:18:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GETIPTest status=SUCCESS method=HttpbinRestTest.GETIPTest()[pri:8, instance:HttpbinRestTest@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrentMethodName -->
+        <test-method status="PASS" signature="GETIPTest()[pri:8, instance:HttpbinRestTest@327b636c]" name="GETIPTest" duration-ms="1288" started-at="2020-01-20T19:18:52Z" description="GET IP Test" finished-at="2020-01-20T19:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GETIPTest -->
+      </class> <!-- HttpbinRestTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- HttpbinRestTest -->
+</testng-results>

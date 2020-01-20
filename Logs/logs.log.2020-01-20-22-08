@@ -1,0 +1,5 @@
+2020-01-20 22:08:00,452 [main] INFO  (LogUtil.java:29) - POST with Serialization by JSON Test: Passed
+2020-01-20 22:08:00,473 [main] INFO  (LogUtil.java:29) - GETIPTest is started
+2020-01-20 22:08:00,485 [main] INFO  (LogUtil.java:29) - GET IP Test Started
+2020-01-20 22:08:01,719 [main] INFO  (LogUtil.java:29) - Public IP address provided
+2020-01-20 22:08:01,719 [main] INFO  (LogUtil.java:29) - GET IP Test: Passed
