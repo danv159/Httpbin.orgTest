@@ -1,9 +1,10 @@
 # Httpbin.orgTest
-This project includes  9  automated tests that cover the CRUD commands and some other tests by  using Tested Website](http://httpbin.org)
+This project includes  9  automated tests that cover the CRUD commands and some other tests by  using;
+[Tested Website](http://httpbin.org)
 
 ## **Getting Started**
 
-The project can be cloned from GitHub. Since it is a maven project, all the dependencies will be imported easily on your local machine for the enhancing the development and test.
+The project can be cloned from GitHub. Since it is a maven project, all the dependencies will be imported easily on your local machine for the enhancing the development and test. Then, you can execute test by using "mvn test".
 
 ### **Prerequisites and Installation**
 
@@ -21,9 +22,9 @@ Note: JDK version: jdk1.8.0\_211
 
 Please read this blog post [Build a maven project to run test](https://medium.com/@anusha.sharma3010/build-a-simple-maven-project-in-jenkins-da7a2a4ae202)
 
-### **TestNG:**
+### **IntelliJ:**
 
-- Goto Edit Configuration and set the project as TestNG project.
+-  File -> New -> Project from Version Control Goto Edit Configuration and set the project as TestNG project. R
 
 ### **Maven:**
 
