@@ -24,7 +24,7 @@ Please read this blog post [Build a maven project to run test](https://medium.co
 
 ### **IntelliJ:**
 
--  File -> New -> Project from Version Control Goto Edit Configuration and set the project as TestNG project. R
+-  File -> New -> Project from Version Control -> URL: https://github.com/alipala/Httpbin.orgTest.git
 
 ### **Maven:**
 
