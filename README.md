@@ -1,7 +1,5 @@
 # Httpbin.orgTest
-This project includes  9  automated tests that cover the CRUD commands and some other tests by  using website: http://httpbin.org
-
-[Tested Website](http://httpbin.org)
+This project includes  9  automated tests that cover the CRUD commands and some other tests by  using Tested Website](http://httpbin.org)
 
 ## **Getting Started**
 
