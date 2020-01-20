@@ -81,4 +81,13 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 ## **Acknowledgments**
 
-- [Jenkins Job migration](https://staxmanade.com/2015/01/how-to-migrate-a-jenkins-job-to-new-jenkins-server/) - Please have a look how to migrate Jenkins job to your local.
+You can also run the test on Jenkins. 
+1. Create a "Maven project" on Jenkins.
+2. Check "GitHub project" and give 	Project url: https://github.com/alipala/Httpbin.orgTest
+3. Select "Source Code Management" is Git. Give the repository URL: https://github.com/alipala/Httpbin.orgTest.git
+4. Select "Branched to build" is */master.
+5. Check "Build periodically" under "Build Triggers" section if you want to build preodically. For example: (H */2 * * *) means build for every 2 hours.
+6. In the "Build" section, "Root POM" shoul be "pom.xml".
+7. Goals and options: clean compile test(If you want any other, it's up to you).
+8. If you want to see the Allure Report integration to your pipeline, open "Post-build Actions", select "Allure Report". After that, specify the path "target/allure-results"
+9. Apply and save the changes
