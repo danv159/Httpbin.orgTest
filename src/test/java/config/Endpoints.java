@@ -1,5 +1,8 @@
 package config;
 
+/***
+ * Endpoints
+ */
 public interface Endpoints {
     String GET = "get";
     String DELETE = "delete";

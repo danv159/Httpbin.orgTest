@@ -11,6 +11,13 @@ import org.testng.annotations.BeforeClass;
 
 import static org.hamcrest.Matchers.lessThan;
 
+/***
+ * Config class to set base URI, header, expected status code and response time
+ * to be called before the test class is run.
+ *
+ * @author
+ *      <a href="mailto:ali.pala@ymail.com">Ali Pala</a>
+ */
 public class HttpbinApiConfig {
     public static RequestSpecification requestSpecification;
     public static ResponseSpecification responseSpecification;

@@ -19,6 +19,25 @@ import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.when;
 import static org.hamcrest.Matchers.lessThan;
 
+/***
+ * Httpbin.org API Test
+ * <ol>
+ * Test cases:
+ * <li>POST with body Test</li>
+ * <li>Simple GET Test</li>
+ * <li>PUT with body Test</li>
+ * <li>PATCH Test</li>
+ * <li>DELETE Test</li>
+ * <li>GET Content Type Test</li>
+ * <li>GET Response Time Test</li>
+ * <li>POST with Serialization by JSON Test</li>
+ * <li>GET IP Test</li>
+ * </ol>
+ *
+ * @author
+ *      <a href="mailto:ali.pala@ymail.com">Ali Pala</a>
+ */
+
 public class HttpbinRestTest extends HttpbinApiConfig {
 
     // Using this can get current Method
@@ -26,7 +45,6 @@ public class HttpbinRestTest extends HttpbinApiConfig {
     public void getCurrentMethodName(ITestResult result) {
         LogUtil.info(result.getMethod().getMethodName() + " is started");
     }
-
 
     @Test(priority = 0, description = "POST with body Test")
     @Severity(SeverityLevel.CRITICAL)
