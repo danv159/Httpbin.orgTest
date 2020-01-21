@@ -8,11 +8,9 @@ The project can be cloned from GitHub. Since it is a maven project, all the depe
 
 ### **Prerequisites and Installation**
 
-Java installation should be done and added to the PATH. Beside of this MAVEN\_HOME should be added to the path.
+Java installation should be done and added to the PATH. Beside of this MAVEN_HOME should be added to the path as a user variable.
 
 Also, Java IDE. I have used IntelliJ Community Edition 2019, but you can choose an IDE whatever you want. For example, Eclipse.
-
-Please note that, after cloning the repository there will be a Jenkins\_Configuration.rar file located in the root. This file includes all the required configuration, and you should import this file to create a job the same as me.
 
 Note: JDK version: jdk1.8.0\_211
 
@@ -48,15 +46,13 @@ mvn -Dtest=BookingTest#getAllBookings clean test
 
 ### **Project Structure**
 
-- Constants: Constant values are locate in this class like expected messages and some login credentials
+- Config: Endpoint and initial API configuration files are located here
 
-- Listeners: Allure Report Listener to save the screenshot once a test is failed
+- Resources: Log4J configurations
 
-- Pages: Consists of methods, variables that corresponding Pages
+- Utility: Helper classes to be used for mant times in the test
 
-- Test: Functional UI tests in order to verify the functionality of the product
-
-- Utilities: Helper classes to be used for mant times in the test
+- Test: Functional API tests in order to verify the functionality of the API
 
 ## **Built With**
 
@@ -66,6 +62,9 @@ mvn -Dtest=BookingTest#getAllBookings clean test
 - [Allure Report](http://allure.qatools.ru/) - Used to create test execution reports
 - [Log4J](https://logging.apache.org/log4j/2.x/) - For inserting log statements into code
 - [Jenkins](https://jenkins.io/) - It is an open source automation server to build the job periodically with required plugins
+
+## **Reporting**
+- I've used Allure Report ro report the test results so that give the easy understandable report to all stakeholders. To use the Allure report from command line, please download the Allure Report commandline and give the bin folder into Path(Environment variables. After this, you need to goto directory where "allure-result" folder is located. Then, execute the comamnd "allure serve ./allure-results" to see the report dashboard.
 
 ## **Methods**
 
